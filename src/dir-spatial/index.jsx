@@ -152,8 +152,8 @@ function SpHome({ onLine, onScreen, onInvoice }) {
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
           <Avatar name={user.fullName} size={32}/>
           <div>
-            <div style={{ fontFamily: 'Space Grotesk', fontSize: 13, fontWeight: 500 }}>jordan</div>
-            <div style={{ fontFamily: 'Geist Mono', fontSize: 10, color: 'rgba(244,244,242,.45)', textTransform: 'uppercase', letterSpacing: 0.08 }}>northlark · 8421</div>
+            <div style={{ fontFamily: 'Space Grotesk', fontSize: 13, fontWeight: 500 }}>emmett</div>
+            <div style={{ fontFamily: 'Geist Mono', fontSize: 10, color: 'rgba(244,244,242,.45)', textTransform: 'uppercase', letterSpacing: 0.08 }}>fitch industries</div>
           </div>
         </div>
         <div style={{ display: 'flex', gap: 6 }}>
