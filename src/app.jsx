@@ -5,9 +5,9 @@ const { useState, useEffect, useRef, useMemo } = React;
 
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "screen": "home",
-  "focusedDirection": "all",
+  "focusedDirection": "signal",
   "lineId": "sim-01",
-  "invoiceId": 4821
+  "invoiceId": 90701
 }/*EDITMODE-END*/;
 
 function loadState() {
