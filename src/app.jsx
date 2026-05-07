@@ -187,7 +187,7 @@ const styles = {
   screenNav: { display: 'flex', flexWrap: 'wrap', gap: 6, alignItems: 'center',
     padding: '14px 16px', background: 'rgba(255,255,255,.03)',
     border: '1px solid rgba(255,255,255,.08)', borderRadius: 14, marginBottom: 36 },
-  navLabel: { fontFamily: 'Geist Mono, monospace', fontSize: 10.5,
+  navLabel: { fontFamily: 'Geist Mono, monospace', fontSize: 9.5,
     textTransform: 'uppercase', color: 'rgba(244,244,242,.35)',
     letterSpacing: 0.12, marginRight: 6 },
   navBtn: { background: 'transparent', color: 'rgba(244,244,242,.7)',

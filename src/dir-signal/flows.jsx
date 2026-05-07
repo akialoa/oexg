@@ -543,7 +543,7 @@ function PlanChangeFlow({ open, onClose, onComplete }) {
                           marginTop: 10, paddingTop: 10, borderTop: '1px dashed rgba(255,255,255,.06)',
                           display: 'flex', justifyContent: 'space-between', alignItems: 'center',
                         }}>
-                          <span style={{ fontFamily: 'Geist Mono', fontSize: 10.5, color: 'rgba(244,244,242,.55)', textTransform: 'uppercase', letterSpacing: 0.06 }}>
+                          <span style={{ fontFamily: 'Geist Mono', fontSize: 9.5, color: 'rgba(244,244,242,.55)', textTransform: 'uppercase', letterSpacing: 0.06 }}>
                             your cost · {numLines} lines
                           </span>
                           <span style={{ fontFamily: 'Geist Mono', fontSize: 13, fontWeight: 600,
@@ -623,7 +623,7 @@ function PlanChangeFlow({ open, onClose, onComplete }) {
                     /mo
                   </span>
                 </div>
-                <div style={{ fontFamily: 'Geist Mono', fontSize: 10.5, color: 'rgba(244,244,242,.55)',
+                <div style={{ fontFamily: 'Geist Mono', fontSize: 9.5, color: 'rgba(244,244,242,.55)',
                   marginTop: 6, textTransform: 'uppercase', letterSpacing: 0.06 }}>
                   {delta > 0 ? '+' : '−'}{fmt.usd(Math.abs(annualDelta))} per year · prorated to apr 28 on next bill
                 </div>
@@ -802,7 +802,7 @@ const flS = {
     marginTop: 20, letterSpacing: -0.2,
   },
   workingSub: {
-    fontFamily: 'Geist Mono', fontSize: 10.5, color: 'rgba(244,244,242,.5)',
+    fontFamily: 'Geist Mono', fontSize: 9.5, color: 'rgba(244,244,242,.5)',
     textTransform: 'uppercase', letterSpacing: 0.08, marginTop: 6, textAlign: 'center',
   },
   workingSteps: {

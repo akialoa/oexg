@@ -232,7 +232,7 @@ function StepType({ state, update }) {
       <div style={actS.hintBox}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 4 }}>
           <Ico.bolt width={12} height={12} style={{ color: '#FBD53D' }}/>
-          <span style={{ fontFamily: 'Geist Mono', fontSize: 10.5, textTransform: 'uppercase', letterSpacing: 0.1, color: '#FBD53D' }}>pro tip</span>
+          <span style={{ fontFamily: 'Geist Mono', fontSize: 9.5, textTransform: 'uppercase', letterSpacing: 0.1, color: '#FBD53D' }}>pro tip</span>
         </div>
         <div style={{ fontSize: 12, color: 'rgba(244,244,242,.7)', lineHeight: 1.5 }}>
           setting up a team? <span style={{ color: '#FBD53D', textDecoration: 'underline' }}>activate 3+ lines together</span> and share a single area code.
@@ -295,7 +295,7 @@ function StepNumber({ state, update }) {
                 <div style={actS.pulseDot}/>
                 <span>held for {fmtCountdown(reserveCountdown)}</span>
               </div>
-              <span style={{ fontFamily: 'Geist Mono', fontSize: 10.5, color: 'rgba(244,244,242,.45)', textTransform: 'uppercase', letterSpacing: 0.06 }}>
+              <span style={{ fontFamily: 'Geist Mono', fontSize: 9.5, color: 'rgba(244,244,242,.45)', textTransform: 'uppercase', letterSpacing: 0.06 }}>
                 {state.selectedNumber?.vibe}
               </span>
             </div>
@@ -400,7 +400,7 @@ function StepPlan({ state, update }) {
           <div>
             <div style={actS.cap2}>plan</div>
             <div style={{ fontFamily: 'Space Grotesk', fontSize: 18, fontWeight: 600, marginTop: 2 }}>optima unlimited</div>
-            <div style={{ fontFamily: 'Geist Mono', fontSize: 10.5, color: 'rgba(244,244,242,.5)', marginTop: 3, textTransform: 'uppercase', letterSpacing: 0.06 }}>
+            <div style={{ fontFamily: 'Geist Mono', fontSize: 9.5, color: 'rgba(244,244,242,.5)', marginTop: 3, textTransform: 'uppercase', letterSpacing: 0.06 }}>
               shares pool · 60 gb · 5 lines
             </div>
           </div>
@@ -780,7 +780,7 @@ const actS = {
     alignItems: 'center', justifyContent: 'center', transition: 'all .15s',
   },
   typeTileLabel: { fontFamily: 'Space Grotesk', fontSize: 15, fontWeight: 600, color: '#f4f4f2' },
-  typeTileTag: { fontFamily: 'Geist Mono', fontSize: 10.5, color: 'rgba(244,244,242,.55)',
+  typeTileTag: { fontFamily: 'Geist Mono', fontSize: 9.5, color: 'rgba(244,244,242,.55)',
     marginTop: 3, textTransform: 'uppercase', letterSpacing: 0.05 },
   hintBox: {
     marginTop: 18, padding: 12,
@@ -817,7 +817,7 @@ const actS = {
     display: 'inline-flex', alignItems: 'center', gap: 6,
     padding: '4px 10px', borderRadius: 999,
     background: 'rgba(251,213,61,.1)', border: '1px solid rgba(251,213,61,.25)',
-    fontFamily: 'Geist Mono', fontSize: 10.5, color: '#FBD53D', letterSpacing: 0.05,
+    fontFamily: 'Geist Mono', fontSize: 9.5, color: '#FBD53D', letterSpacing: 0.05,
     textTransform: 'uppercase',
   },
   pulseDot: {

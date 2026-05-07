@@ -227,7 +227,7 @@ function SpHome({ onLine, onScreen, onInvoice }) {
             <div>
               <div style={spS.cap}>next bill · apr 28</div>
               <div style={{ fontFamily: 'Geist Mono', fontSize: 24, fontWeight: 600, marginTop: 2 }}>{fmt.usd(nextBill.total)}</div>
-              <div style={{ fontFamily: 'Geist Mono', fontSize: 10.5, color: 'rgba(244,244,242,.5)', marginTop: 2, textTransform: 'uppercase', letterSpacing: 0.06 }}>auto · visa ···· 4412</div>
+              <div style={{ fontFamily: 'Geist Mono', fontSize: 9.5, color: 'rgba(244,244,242,.5)', marginTop: 2, textTransform: 'uppercase', letterSpacing: 0.06 }}>auto · visa ···· 4412</div>
             </div>
             <div style={{
               padding: '8px 14px', background: 'rgba(251,213,61,.14)',
@@ -314,7 +314,7 @@ function SpLineDetail({ device, onBack }) {
             {[['voice', device.hasVoice], ['data', device.hasData], ['sms', device.hasSms], ['mms', device.hasMms], ['call waiting', device.callWaiting]].map(([k, v]) => (
               <div key={k} style={{
                 padding: '5px 10px', borderRadius: 999,
-                fontFamily: 'Geist Mono', fontSize: 10.5, textTransform: 'uppercase', letterSpacing: 0.06,
+                fontFamily: 'Geist Mono', fontSize: 9.5, textTransform: 'uppercase', letterSpacing: 0.06,
                 background: v ? 'rgba(251,213,61,.12)' : 'rgba(255,255,255,.04)',
                 border: `1px solid ${v ? 'rgba(251,213,61,.25)' : 'rgba(255,255,255,.08)'}`,
                 color: v ? '#FBD53D' : 'rgba(244,244,242,.35)',
@@ -481,7 +481,7 @@ function SpSettings() {
             <div style={{ fontFamily: 'Space Grotesk', fontSize: 18, fontWeight: 600 }}>{plan.name}</div>
             <div style={{ fontFamily: 'Geist Mono', fontSize: 16, fontWeight: 600 }}>{fmt.usd(plan.pricePerMonth)}<span style={{ fontSize: 10, color: 'rgba(244,244,242,.4)', marginLeft: 2 }}>/mo</span></div>
           </div>
-          <div style={{ fontFamily: 'Geist Mono', fontSize: 10.5, color: 'rgba(244,244,242,.5)', marginTop: 4 }}>{plan.speedDescription}</div>
+          <div style={{ fontFamily: 'Geist Mono', fontSize: 9.5, color: 'rgba(244,244,242,.5)', marginTop: 4 }}>{plan.speedDescription}</div>
           <div style={{ display: 'flex', gap: 6, marginTop: 12, flexWrap: 'wrap' }}>
             {[`${plan.dataAllocationGigs} gb`, `up to ${plan.maxDevices} devices`, 'roaming'].map(x =>
               <span key={x} style={{ fontFamily: 'Geist Mono', fontSize: 10, padding: '3px 7px', border: '1px solid rgba(255,255,255,.1)', borderRadius: 4, color: 'rgba(244,244,242,.7)', textTransform: 'uppercase', letterSpacing: 0.05 }}>{x}</span>
@@ -527,7 +527,7 @@ const spS = {
   cap: { fontFamily: 'Geist Mono', fontSize: 10, color: 'rgba(244,244,242,.5)',
     textTransform: 'uppercase', letterSpacing: 0.12 },
   link: { background: 'transparent', border: 'none', color: '#FBD53D',
-    fontFamily: 'Geist Mono', fontSize: 10.5, cursor: 'pointer', letterSpacing: 0.05 },
+    fontFamily: 'Geist Mono', fontSize: 9.5, cursor: 'pointer', letterSpacing: 0.05 },
   glassPill: { width: 32, height: 32, borderRadius: '50%',
     background: 'rgba(255,255,255,.06)', backdropFilter: 'blur(14px)',
     border: '1px solid rgba(255,255,255,.08)', color: 'rgba(244,244,242,.8)',
