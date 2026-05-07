@@ -35,15 +35,15 @@ const fmt = {
 const user = {
   id: 8421,
   email: 'jordan@northlark.co',
-  firstName: 'Jordan',
-  lastName: 'Castell',
-  fullName: 'Jordan Castell',
-  accountType: 'northlark studio · smb',  // not in the original model; harmless tag
+  firstName: 'emmett',
+  lastName: 'fitch',
+  fullName: 'emmett fitch',
+  accountType: 'fitch industries',  // not in the original model; harmless tag
   streetAddress: {
-    street: '114 beacon st, apt 3',
-    city: 'brooklyn',
-    state: 'ny',
-    zipcode: '11201',
+    street: ' 3540 32nd way nw',
+    city: 'olympia',
+    state: 'wa',
+    zipcode: '98502',
     country: 'united states',
   },
   billingDay: 14,
@@ -177,7 +177,7 @@ const devices = [
 // --- invoices ---------------------------------------------------------------
 const invoices = [
   {
-    id: 4821, invoiceNumber: 'inv-2026-04', total: 184.62, subtotal: 168.00, amountPaid: 0, amountDue: 184.62,
+    id: 90704, invoiceNumber: 'inv-2026-04', total: 184.62, subtotal: 168.00, amountPaid: 0, amountDue: 184.62,
     isPaid: false, isDue: true, isOverdue: false,
     periodStart: new Date(2026, 3, 1), periodEnd: new Date(2026, 3, 30),
     dateCreated: new Date(2026, 3, 14),
@@ -196,7 +196,7 @@ const invoices = [
     paymentCardLast4: '4412',
   },
   {
-    id: 4702, invoiceNumber: 'inv-2026-03', total: 179.48, subtotal: 162.00, amountPaid: 179.48, amountDue: 0,
+    id: 90703, invoiceNumber: 'inv-2026-03', total: 179.48, subtotal: 162.00, amountPaid: 179.48, amountDue: 0,
     isPaid: true, isDue: false, isOverdue: false,
     periodStart: new Date(2026, 2, 1), periodEnd: new Date(2026, 2, 31),
     dateCreated: new Date(2026, 2, 14),
@@ -215,7 +215,7 @@ const invoices = [
     paymentCardLast4: '4412',
   },
   {
-    id: 4589, invoiceNumber: 'inv-2026-02', total: 168.24, total2: 168.24, subtotal: 152.00, amountPaid: 168.24, amountDue: 0,
+    id: 90702, invoiceNumber: 'inv-2026-02', total: 168.24, total2: 168.24, subtotal: 152.00, amountPaid: 168.24, amountDue: 0,
     isPaid: true, isDue: false, isOverdue: false,
     periodStart: new Date(2026, 1, 1), periodEnd: new Date(2026, 1, 28),
     dateCreated: new Date(2026, 1, 14),
@@ -233,7 +233,7 @@ const invoices = [
     paymentCardLast4: '4412',
   },
   {
-    id: 4441, invoiceNumber: 'inv-2026-01', total: 167.82, subtotal: 152.00, amountPaid: 167.82, amountDue: 0,
+    id: 90701, invoiceNumber: 'inv-2026-01', total: 167.82, subtotal: 152.00, amountPaid: 167.82, amountDue: 0,
     isPaid: true, isDue: false, isOverdue: false,
     periodStart: new Date(2026, 0, 1), periodEnd: new Date(2026, 0, 31),
     dateCreated: new Date(2026, 0, 14),
@@ -252,7 +252,7 @@ const invoices = [
     paymentCardLast4: '4412',
   },
   {
-    id: 4298, invoiceNumber: 'inv-2025-12', total: 174.11, subtotal: 158.00, amountPaid: 174.11, amountDue: 0,
+    id: 90700, invoiceNumber: 'inv-2025-12', total: 174.11, subtotal: 158.00, amountPaid: 174.11, amountDue: 0,
     isPaid: true, isDue: false, isOverdue: false,
     periodStart: new Date(2025, 11, 1), periodEnd: new Date(2025, 11, 31),
     dateCreated: new Date(2025, 11, 14),
@@ -271,7 +271,7 @@ const invoices = [
     paymentCardLast4: '4412',
   },
   {
-    id: 4162, invoiceNumber: 'inv-2025-11', total: 162.18, subtotal: 146.00, amountPaid: 162.18, amountDue: 0,
+    id: 90699, invoiceNumber: 'inv-2025-11', total: 162.18, subtotal: 146.00, amountPaid: 162.18, amountDue: 0,
     isPaid: true, isDue: false, isOverdue: false,
     periodStart: new Date(2025, 10, 1), periodEnd: new Date(2025, 10, 30),
     dateCreated: new Date(2025, 10, 14),
