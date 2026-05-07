@@ -788,7 +788,7 @@ const sigStyles = {
   pageTitle: { fontFamily: 'Space Grotesk', fontSize: 26, fontWeight: 600, letterSpacing: -0.3 },
   pageCount: { fontFamily: 'Geist Mono', fontSize: 13, color: 'rgba(244,244,242,.4)', fontWeight: 400, marginLeft: 4 },
   detailTitle: { fontFamily: 'Space Grotesk', fontSize: 17, fontWeight: 600 },
-  detailSub: { fontFamily: 'Geist Mono', fontSize: 10.5, color: 'rgba(244,244,242,.5)', marginTop: 1 },
+  detailSub: { fontFamily: 'Geist Mono', fontSize: 9.5, color: 'rgba(244,244,242,.5)', marginTop: 1 },
   stripe: { display: 'flex', alignItems: 'center', gap: 8, padding: '8px 12px',
     background: 'rgba(255,255,255,.03)', border: '1px solid rgba(255,255,255,.06)',
     borderRadius: 10, fontFamily: 'Geist Mono', fontSize: 10.5, marginBottom: 14 },
