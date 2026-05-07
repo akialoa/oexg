@@ -33,7 +33,7 @@ function TabBar({ active, onTab, dark = true, variant = 'glass' }) {
               color: isActive ? '#FBD53D' : inactive,
               display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4,
               padding: '4px 10px', fontFamily: 'Geist, system-ui',
-              fontSize: 10.5, fontWeight: 500, letterSpacing: 0.02,
+              fontSize: 9.5, fontWeight: 500, letterSpacing: 0.02,
               transition: 'color .15s ease',
             }}>
             <Icon width={22} height={22} style={{
