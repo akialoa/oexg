@@ -165,7 +165,7 @@ function SigHome({ onLine, onScreen, onInvoice, openActivation, openPlanChange }
       <div style={sigStyles.padX}>
         <div style={sigStyles.stripe}>
           <div style={sigStyles.stripeLabel}>period</div>
-          <div style={sigStyles.stripeValue}>apr 1 — apr 30</div>
+          <div style={sigStyles.stripeValue}>april 2026</div>
           <div style={sigStyles.stripeDivider}/>
           <div style={sigStyles.stripeLabel}>day</div>
           <div style={sigStyles.stripeValue}>{daysElapsed} / {daysTotal}</div>

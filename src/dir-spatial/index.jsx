@@ -195,7 +195,7 @@ function SpHome({ onLine, onScreen, onInvoice }) {
                 </span>
               </div>
               <div style={{ fontSize: 12, color: 'rgba(244,244,242,.55)', marginTop: 4 }}>
-                day {daysElapsed} of {daysTotal} · on track
+                day {daysElapsed} of {daysTotal}
               </div>
             </div>
             <Donut percent={dataPercent} size={78} stroke={8} color="#FBD53D">
