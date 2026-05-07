@@ -13,7 +13,7 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
 function loadState() {
   try {
     const s = JSON.parse(localStorage.getItem('optimera-state') || '{}');
-    return { ...TWEAK_DEFAULTS, ...s };
+    return { ...TWEAK_DEFAULTS, ...s, focusedDirection: 'signal' };
   } catch { return { ...TWEAK_DEFAULTS }; }
 }
 
@@ -41,21 +41,21 @@ function App() {
   };
 
   const screens = [
-    { id: 'home', label: 'Home' },
-    { id: 'lines', label: 'Lines' },
-    { id: 'line', label: 'Line detail' },
-    { id: 'bills', label: 'Bills' },
-    { id: 'bill', label: 'Bill detail' },
-    { id: 'settings', label: 'Settings' },
+    { id: 'home', label: 'home' },
+    { id: 'lines', label: 'lines' },
+    { id: 'line', label: 'line detail' },
+    { id: 'bills', label: 'bills' },
+    { id: 'bill', label: 'bill detail' },
+    { id: 'settings', label: 'settings' },
   ];
   const directions = [
-    { id: 'signal', name: '01 · Signal',
+    { id: 'signal', name: '01 · signal',
       subtitle: 'Data-rich · operator-console density',
       body: 'Live at-a-glance readout of every line. Numbers first; 14-day sparklines; cost allocation per line on the same screen.' },
-    { id: 'editorial', name: '02 · Editorial',
+    { id: 'editorial', name: '02 · editorial',
       subtitle: 'Calm · big type · lots of air',
       body: 'Treats your account like a magazine cover. One hero number per screen. Instrument Serif accents for the moments that matter.' },
-    { id: 'spatial', name: '03 · Stack',
+    { id: 'spatial', name: '03 · stack',
       subtitle: 'iOS 26 liquid glass · layered',
       body: 'Your lines as a stack of physical SIM cards you peel back. Depth and material carry the meaning — numbers stay calm.' },
   ];
