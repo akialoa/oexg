@@ -42,7 +42,7 @@ function EdHome({ onLine, onScreen, onInvoice }) {
         </h1>
         <p style={edS.lede}>
           You've used <span style={edS.num}>{fmt.gb(totalDataUsed).toFixed(1)}</span> of your{' '}
-          <span style={edS.num}>{plan.dataAllocationGigs}</span> gb this period, and everything is
+          <span style={edS.num}>{plan.dataAllocationGigs}</span>gb this period, and everything is
           <em style={edS.em}> on track</em>.
         </p>
       </div>

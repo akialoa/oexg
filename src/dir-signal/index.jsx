@@ -170,8 +170,6 @@ function SigHome({ onLine, onScreen, onInvoice, openActivation, openPlanChange }
           <div style={sigStyles.stripeLabel}>day</div>
           <div style={sigStyles.stripeValue}>{daysElapsed} / {daysTotal}</div>
           <div style={{ ...sigStyles.stripeDivider, flex: 1 }}/>
-          <div style={sigStyles.stripeLabel}>status</div>
-          <div style={{ ...sigStyles.stripeValue, color: '#FBD53D' }}>on track</div>
         </div>
       </div>
 
