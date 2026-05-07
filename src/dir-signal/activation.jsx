@@ -6,16 +6,16 @@ const { useState: useStateAct, useEffect: useEffectAct, useRef: useRefAct, useMe
 
 // ---- Data: available numbers to reserve --------------------------------------
 const AVAILABLE_NUMBERS = [
-  { area: '917', local: '5550194', vibe: 'manhattan' },
-  { area: '917', local: '5550207', vibe: 'manhattan' },
-  { area: '917', local: '5550311', vibe: 'manhattan' },
-  { area: '718', local: '5550423', vibe: 'brooklyn' },
-  { area: '718', local: '5550611', vibe: 'brooklyn' },
-  { area: '646', local: '5550290', vibe: 'manhattan' },
-  { area: '646', local: '5550841', vibe: 'manhattan' },
-  { area: '212', local: '5550122', vibe: 'manhattan · legacy' },
-  { area: '929', local: '5550733', vibe: 'brooklyn' },
-  { area: '347', local: '5550109', vibe: 'queens' },
+  { area: '907', local: '5550194', vibe: 'anchorage' },
+  { area: '907', local: '5550207', vibe: 'anchorage' },
+  { area: '907', local: '5550311', vibe: 'anchorage' },
+  { area: '808', local: '5550423', vibe: 'honolulu' },
+  { area: '808', local: '5550611', vibe: 'honolulu' },
+  { area: '808', local: '5550290', vibe: 'honolulu' },
+  { area: '206', local: '5550841', vibe: 'seattle' },
+  { area: '206', local: '5550122', vibe: 'seattle' },
+  { area: '206', local: '5550733', vibe: 'seattle' },
+  { area: '206', local: '5550109', vibe: 'seattle' },
 ];
 
 const PRESETS = {
@@ -658,10 +658,10 @@ function StepName({ state, update }) {
   const D = window.OPTIMERA;
   const deviceModel = 'iPhone 15 Pro';
   const suggestions = [
-    `jordan · ${state.lineType}`,
+    `emmett · ${state.lineType}`,
     `${state.lineType} · ${deviceModel.toLowerCase()}`,
-    state.lineType === 'work' ? 'northlark · main' : null,
-    state.lineType === 'data' ? 'studio · hotspot' : null,
+    state.lineType === 'work' ? 'fitch industries' : null,
+    state.lineType === 'data' ? 'olympia studio' : null,
   ].filter(Boolean);
 
   return (
@@ -672,7 +672,7 @@ function StepName({ state, update }) {
           type="text"
           value={state.lineName}
           onChange={e => update({ lineName: e.target.value })}
-          placeholder="e.g. jordan · primary"
+          placeholder="e.g. emmett iPhone"
           autoFocus
           style={actS.bigInput}/>
         <div style={{ fontFamily: 'Geist Mono', fontSize: 10, color: 'rgba(244,244,242,.4)', marginTop: 8, textTransform: 'uppercase', letterSpacing: 0.06 }}>

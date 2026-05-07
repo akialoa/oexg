@@ -151,8 +151,8 @@ function SigHome({ onLine, onScreen, onInvoice, openActivation, openPlanChange }
         left={<>
           <Avatar name={user.fullName} size={30}/>
           <div>
-            <div style={sigStyles.greeting}>hi, jordan</div>
-            <div style={sigStyles.greetingSub}>northlark studio · acct 8421</div>
+            <div style={sigStyles.greeting}>good evening, emmett!</div>
+            <div style={sigStyles.greetingSub}>fitch industries</div>
           </div>
         </>}
         right={<>

@@ -37,8 +37,8 @@ function EdHome({ onLine, onScreen, onInvoice }) {
       <div style={{ padding: '0 24px' }}>
         <div style={edS.kicker}>april · week 3</div>
         <h1 style={edS.serifTitle}>
-          Good morning,<br/>
-          <span style={{ color: '#FBD53D' }}>Jordan.</span>
+          good morning,<br/>
+          <span style={{ color: '#FBD53D' }}>emmett.</span>
         </h1>
         <p style={edS.lede}>
           You've used <span style={edS.num}>{fmt.gb(totalDataUsed).toFixed(1)}</span> of your{' '}
@@ -90,7 +90,7 @@ function EdHome({ onLine, onScreen, onInvoice }) {
         <div style={edS.sectionLbl}>next bill</div>
         <button onClick={() => onInvoice(nextBill.id)} style={edS.billRow}>
           <div style={{ textAlign: 'left' }}>
-            <div style={edS.billRowDate}>April <span style={{ fontFamily: 'Instrument Serif', fontStyle: 'italic' }}>28</span></div>
+            <div style={edS.billRowDate}>april <span style={{ fontFamily: 'Instrument Serif', fontStyle: 'italic' }}>28</span></div>
             <div style={edS.billRowMeta}>visa ending 4412</div>
           </div>
           <div style={edS.billRowAmt}>
@@ -238,7 +238,7 @@ function EdBillDetail({ invoice, onBack }) {
         </span>
       </h1>
       <div style={edS.lede}>
-        {invoice.isPaid ? `paid ${fmt.shortDate(invoice.dateCreated)} · visa ···· ${invoice.paymentCardLast4}` : 'due April 28'}
+        {invoice.isPaid ? `paid ${fmt.shortDate(invoice.dateCreated)} · visa ···· ${invoice.paymentCardLast4}` : 'due april 28'}
       </div>
 
       <div style={{ marginTop: 36 }}>
