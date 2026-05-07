@@ -34,7 +34,7 @@ const fmt = {
 // --- user + plan ------------------------------------------------------------
 const user = {
   id: 8421,
-  email: 'jordan@northlark.co',
+  email: 'emmett@optimeraxg.com',
   firstName: 'emmett',
   lastName: 'fitch',
   fullName: 'emmett fitch',
@@ -86,7 +86,7 @@ const devices = [
     id: 'sim-01',
     imsi: '310260000000001',
     iccid: '8901260000000000001',
-    label: 'jordan · primary',
+    label: 'emmett',
     state: 'active',
     hasVoice: true, hasData: true, hasSms: true, hasMms: true,
     isEsim: true, simType: 'esim',
