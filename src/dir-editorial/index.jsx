@@ -248,7 +248,7 @@ function EdBillDetail({ invoice, onBack }) {
             <div key={it.id} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', padding: '12px 0', borderBottom: i < arr.length - 1 ? '1px solid rgba(255,255,255,.06)' : 'none', gap: 10 }}>
               <div style={{ flex: 1 }}>
                 <div style={{ fontSize: 14 }}>{it.name}</div>
-                {it.description && <div style={{ fontFamily: 'Geist Mono', fontSize: 10.5, color: 'rgba(244,244,242,.4)', marginTop: 2 }}>{it.description}</div>}
+                {it.description && <div style={{ fontFamily: 'Geist Mono', fontSize: 9.5, color: 'rgba(244,244,242,.4)', marginTop: 2 }}>{it.description}</div>}
               </div>
               <div style={{ fontFamily: 'Instrument Serif', fontStyle: 'italic', fontSize: 18 }}>{fmt.usd(it.price)}</div>
             </div>

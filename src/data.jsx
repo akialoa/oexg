@@ -140,7 +140,7 @@ const devices = [
     id: 'sim-04',
     imsi: '310260000000004',
     iccid: '8901260000000000004',
-    label: 'studio · hotspot',
+    label: 'studio',
     state: 'active',
     hasVoice: false, hasData: true, hasSms: false, hasMms: false,
     isEsim: false, simType: 'data',
@@ -179,7 +179,7 @@ const invoices = [
   {
     id: 90704, invoiceNumber: 'inv-2026-04', total: 184.62, subtotal: 168.00, amountPaid: 0, amountDue: 184.62,
     isPaid: false, isDue: true, isOverdue: false,
-    periodStart: new Date(2026, 2, 1), periodEnd: new Date(2026, 3, 30),
+    periodStart: new Date(2026, 3, 1), periodEnd: new Date(2026, 3, 30),
     dateCreated: new Date(2026, 3, 14),
     items: [
       { id: 'i1', name: 'plan · optima unlimited', description: '60 gb · 5 lines', price: 60, quantity: 1 },
