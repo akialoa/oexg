@@ -476,7 +476,7 @@ function SigLineDetail({ device, onBack, openSuspend }) {
               <div style={{ flex: 1, minWidth: 0, textAlign: 'left' }}>
                 <div style={sigStyles.rowLabel}>{r.k}</div>
                 {r.on && r.num && (
-                  <div style={{ fontFamily: 'Geist Mono', fontSize: 10.5, color: '#FBD53D', marginTop: 2, letterSpacing: 0.04 }}>
+                  <div style={{ fontFamily: 'Geist Mono', fontSize: 9.5, color: '#FBD53D', marginTop: 2, letterSpacing: 0.04 }}>
                     → {fmt.phone(r.num)}
                   </div>
                 )}
@@ -810,7 +810,7 @@ const sigStyles = {
   microUnit: { fontSize: 10, color: 'rgba(244,244,242,.4)', marginLeft: 3, fontWeight: 400 },
   microDelta: { fontFamily: 'Geist Mono', fontSize: 10, color: 'rgba(244,244,242,.4)', marginTop: 2 },
   sectionHead: { display: 'flex', justifyContent: 'space-between', alignItems: 'baseline',
-    margin: '20px 0 8px', fontFamily: 'Geist Mono', fontSize: 10.5,
+    margin: '20px 0 8px', fontFamily: 'Geist Mono', fontSize: 9.5,
     color: 'rgba(244,244,242,.45)', textTransform: 'uppercase', letterSpacing: 0.1 },
   linkBtn: { background: 'transparent', border: 'none', color: '#FBD53D',
     fontFamily: 'Geist Mono', fontSize: 10.5, cursor: 'pointer', letterSpacing: 0.05 },
@@ -827,7 +827,7 @@ const sigStyles = {
     background: '#0a0a0a', border: '1px solid rgba(251,213,61,.3)',
     borderRadius: 14, cursor: 'pointer', color: '#f4f4f2', textAlign: 'left' },
   billDate: { fontFamily: 'Space Grotesk', fontSize: 18, fontWeight: 600, color: '#FBD53D' },
-  billLabel: { fontFamily: 'Geist Mono', fontSize: 10.5, color: 'rgba(244,244,242,.5)', marginTop: 2 },
+  billLabel: { fontFamily: 'Geist Mono', fontSize: 9.5, color: 'rgba(244,244,242,.5)', marginTop: 2 },
   billAmt: { fontFamily: 'Geist Mono', fontSize: 20, fontWeight: 600 },
   billMethod: { fontFamily: 'Geist Mono', fontSize: 10, color: 'rgba(244,244,242,.4)', marginTop: 2 },
   actRow: { display: 'flex', alignItems: 'center', gap: 10, padding: '8px 0',
@@ -891,7 +891,7 @@ const sigStyles = {
     cursor: 'pointer', color: '#f4f4f2', textAlign: 'left' },
   billFullDate: { fontFamily: 'Geist', fontSize: 13.5, fontWeight: 500,
     textTransform: 'capitalize' },
-  billFullMeta: { fontFamily: 'Geist Mono', fontSize: 10.5, color: 'rgba(244,244,242,.5)', marginTop: 2 },
+  billFullMeta: { fontFamily: 'Geist Mono', fontSize: 9.5, color: 'rgba(244,244,242,.5)', marginTop: 2 },
   billFullAmt: { fontFamily: 'Geist Mono', fontSize: 15, fontWeight: 600 },
   billFullStatus: { fontFamily: 'Geist Mono', fontSize: 10, marginTop: 2,
     textTransform: 'uppercase', letterSpacing: 0.06 },
